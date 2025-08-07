@@ -1,0 +1,19 @@
+current directory: /home/liss/curso/hola-rails/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.7/ext/stringio
+/home/liss/.asdf/installs/ruby/3.4.2/bin/ruby extconf.rb
+checking for rb_io_mode_t in ruby/io.h... no
+creating Makefile
+
+current directory: /home/liss/curso/hola-rails/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250807-33524-uz15qf sitelibdir\=./.gem.20250807-33524-uz15qf clean
+
+current directory: /home/liss/curso/hola-rails/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250807-33524-uz15qf sitelibdir\=./.gem.20250807-33524-uz15qf
+compiling stringio.c
+linking shared-object stringio.so
+
+current directory: /home/liss/curso/hola-rails/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250807-33524-uz15qf sitelibdir\=./.gem.20250807-33524-uz15qf install
+/usr/bin/install -c -m 0755 stringio.so ./.gem.20250807-33524-uz15qf
+
+current directory: /home/liss/curso/hola-rails/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250807-33524-uz15qf sitelibdir\=./.gem.20250807-33524-uz15qf clean

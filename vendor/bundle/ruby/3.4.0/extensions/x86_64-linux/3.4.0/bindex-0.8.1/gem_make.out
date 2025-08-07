@@ -1,0 +1,18 @@
+current directory: /home/liss/curso/hola-rails/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+/home/liss/.asdf/installs/ruby/3.4.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/liss/curso/hola-rails/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250807-33524-3aczey sitelibdir\=./.gem.20250807-33524-3aczey clean
+
+current directory: /home/liss/curso/hola-rails/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250807-33524-3aczey sitelibdir\=./.gem.20250807-33524-3aczey
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/liss/curso/hola-rails/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250807-33524-3aczey sitelibdir\=./.gem.20250807-33524-3aczey install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20250807-33524-3aczey/skiptrace/internal
+
+current directory: /home/liss/curso/hola-rails/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250807-33524-3aczey sitelibdir\=./.gem.20250807-33524-3aczey clean
