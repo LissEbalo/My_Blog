@@ -1,0 +1,28 @@
+current directory: /home/liss/curso/hola-rails/vendor/bundle/ruby/3.4.0/gems/rbs-3.9.5/ext/rbs_extension
+/home/liss/.asdf/installs/ruby/3.4.2/bin/ruby extconf.rb
+checking for whether -std=gnu99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /home/liss/curso/hola-rails/vendor/bundle/ruby/3.4.0/gems/rbs-3.9.5/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20250910-7141-wcc4xt sitelibdir\=./.gem.20250910-7141-wcc4xt clean
+
+current directory: /home/liss/curso/hola-rails/vendor/bundle/ruby/3.4.0/gems/rbs-3.9.5/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20250910-7141-wcc4xt sitelibdir\=./.gem.20250910-7141-wcc4xt
+compiling ./../../src/constants.c
+compiling ./../../src/ruby_objs.c
+compiling ./../../src/util/rbs_constant_pool.c
+compiling lexer.c
+compiling lexstate.c
+compiling location.c
+compiling main.c
+compiling parser.c
+compiling parserstate.c
+compiling unescape.c
+linking shared-object rbs_extension.so
+
+current directory: /home/liss/curso/hola-rails/vendor/bundle/ruby/3.4.0/gems/rbs-3.9.5/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20250910-7141-wcc4xt sitelibdir\=./.gem.20250910-7141-wcc4xt install
+/usr/bin/install -c -m 0755 rbs_extension.so ./.gem.20250910-7141-wcc4xt
+
+current directory: /home/liss/curso/hola-rails/vendor/bundle/ruby/3.4.0/gems/rbs-3.9.5/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20250910-7141-wcc4xt sitelibdir\=./.gem.20250910-7141-wcc4xt clean
