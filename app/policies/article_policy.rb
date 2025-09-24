@@ -23,6 +23,14 @@ class ArticlePolicy < ApplicationPolicy
     user.present? && user_owns_article?
   end
 
+  def publish?
+    user.present? && user_owns_article? && record.draft?
+  end
+
+  def unpublish?
+    user.present? && user_owns_article? && record.published?
+  end
+
   def user_owns_article?
     record.user_id == user.id
   end

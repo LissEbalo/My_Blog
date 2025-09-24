@@ -4,6 +4,10 @@ Rails.application.routes.draw do
 
   resources :articles do
     resources :comments
+    member do
+      patch :publish
+      patch :unpublish
+    end
   end
   # Ruta para el perfil del usuario
   get "profile", to: "users#profile", as: :profile

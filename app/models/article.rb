@@ -8,5 +8,5 @@ class Article < ApplicationRecord
   validates :title, presence: true
   validates :user, presence: true # lo nuevo
 
-  enum :publication_state, draft: 0, published: 1 # acá se define que valor numérico es el estado => 0 es draft / borrador
+  enum :publication_state, { draft: 0, published: 1 }, default: :draft # acá se define que valor numérico es el estado => 0 es draft / borrador
 end
